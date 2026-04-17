@@ -20,3 +20,4 @@ extra:
 sensitivity(cm, relevant = "Up")
 specificity(cm, relevant = "Up")
 F_meas(cm, relevant = "Up", beta = 1)
+predict(): fit$coef[1] + fit$coef[2]*test_set$father
