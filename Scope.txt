@@ -1,20 +1,31 @@
 1. Dependent Variables
-
 These represent the US Indices. You generally shouldn't use the raw price; instead, use variables that reflect change or volatility.
+
 Log Returns: The percentage change in the index price. Log returns are preferred in statistics because they are more "normally distributed" than raw prices.
-Trading Volume: The total number of shares traded. This measures market "conviction" or interest triggered by a post.
 Realized Volatility: The standard deviation of returns over a specific window (e.g., 5 minutes or 1 hour post-tweet).
+
+Trading Volume: The total number of shares traded. This measures market "conviction" or interest triggered by a post.
 Intraday High/Low Spread: The difference between the highest and lowest price within a specific timeframe following a post.
+
 
 2. Independent Variables
 Quantitative (Metadata)
+
 Post Frequency: The number of posts within a 24-hour window.
-Engagement Metrics: Likes, Retweets, and Comments. High engagement often acts as a multiplier for market impact.
-Follower Growth: A sudden spike in followers might indicate the celebrity's increasing "market-moving" power.
+.Engagement Metrics: Likes, Retweets, and Comments. High engagement often acts as a multiplier for market impact.
+.@trump
+
 Time of Day: A categorical variable (e.g., "During Market Hours" vs. "After Hours").
+
 Qualitative (Sentiment Data)
-Polarity Score: A value from -1 (extremely negative) to +1 (extremely positive).
+Sentiment Score: A value from -1 (extremely negative) to +1 (extremely positive).
 Subjectivity Score: Whether the post is an objective fact or a personal opinion.
+
+(Follower Growth (can not find): A sudden spike in followers might indicate the celebrity's increasing "market-moving" power.)
+
+statistics:
+pearson
+moving
 
 extra:
 sensitivity(cm, relevant = "Up")
