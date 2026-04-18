@@ -1,34 +1,33 @@
+Timeframe: 2024 - 2025
+
 1. Dependent Variables
-These represent the US Indices. You generally shouldn't use the raw price; instead, use variables that reflect change or volatility.
+These represent the US Indices. shouldn't use the raw price; instead, use variables that reflect change or volatility.
 
-Log Returns: The percentage change in the index price. Log returns are preferred in statistics because they are more "normally distributed" than raw prices.
-Realized Volatility: The standard deviation of returns over a specific window (e.g., 5 minutes or 1 hour post-tweet).
-
-Trading Volume: The total number of shares traded. This measures market "conviction" or interest triggered by a post.
-Intraday High/Low Spread: The difference between the highest and lowest price within a specific timeframe following a post.
-
+Price Change: 1 hour, 6 hours, 24 hours (1 day)
+Volatility: 1 hour, 12 hours, 48 hours
+Trading Volume: 1 day
+Intraday High/Low Spread: 1 day
 
 2. Independent Variables
 Quantitative (Metadata)
 
 Post Frequency: The number of posts within a 24-hour window.
-.Engagement Metrics: Likes, Retweets, and Comments. High engagement often acts as a multiplier for market impact.
-.@trump
-
+Engagement Metrics: Likes, Retweets, and Comments. High engagement often acts as a multiplier for market impact.
+mention @trump: 100 post daily
 Time of Day: A categorical variable (e.g., "During Market Hours" vs. "After Hours").
 
 Qualitative (Sentiment Data)
 Sentiment Score: A value from -1 (extremely negative) to +1 (extremely positive).
 Subjectivity Score: Whether the post is an objective fact or a personal opinion.
 
-(Follower Growth (can not find): A sudden spike in followers might indicate the celebrity's increasing "market-moving" power.)
+           (Follower Growth (can not find): A sudden spike in followers might indicate the celebrity's increasing "market-moving" power.)
 
 statistics:
 pearson
-moving
+moving corelation
 
 extra:
 sensitivity(cm, relevant = "Up")
 specificity(cm, relevant = "Up")
 F_meas(cm, relevant = "Up", beta = 1)
-predict(): fit$coef[1] + fit$coef[2]*test_set$father
+formula: predict(): fit$coef[1] + fit$coef[2]*test_set$father
