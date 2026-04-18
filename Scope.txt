@@ -20,7 +20,7 @@ Qualitative (Sentiment Data)
 Sentiment Score: A value from -1 (extremely negative) to +1 (extremely positive).
 Subjectivity Score: Whether the post is an objective fact or a personal opinion.
 
-           (Follower Growth (can not find): A sudden spike in followers might indicate the celebrity's increasing "market-moving" power.)
+//(Follower Growth (can not find): A sudden spike in followers might indicate the celebrity's increasing "market-moving" power.)
 
 statistics:
 pearson
