@@ -1,4 +1,4 @@
-Timeframe: 2024 - 2025
+Timeframe: 2025 - 2026
 
 1. Dependent Variables
 These represent the US Indices. shouldn't use the raw price; instead, use variables that reflect change or volatility.
