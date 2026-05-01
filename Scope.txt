@@ -3,16 +3,16 @@ Timeframe: 2024 - 2025
 1. Dependent Variables
 These represent the US Indices. shouldn't use the raw price; instead, use variables that reflect change or volatility.
 
-Price Change: 1 hour, 6 hours, 24 hours (1 day)
-Volatility: 1 hour, 12 hours, 48 hours
-Trading Volume: 1 day
-Intraday High/Low Spread: 1 day
+☐ Price Change: 1 hour, 6 hours, 24 hours (1 day)
+☐ Volatility: 1 hour, 12 hours, 48 hours
+ ✅ Trading Volume: 1 day
+ ✅ Intraday High/Low Spread: 1 day
 
 2. Independent Variables
 Quantitative (Metadata)
 
-Post Frequency: The number of posts within a 24-hour window.
-Engagement Metrics: Likes, Retweets, and Comments. High engagement often acts as a multiplier for market impact.
+☐ Post Frequency: The number of posts within a 24-hour window.
+☐ Engagement Metrics: Likes, Retweets, and Comments. High engagement often acts as a multiplier for market impact.
 mention @trump: 100 post daily
 Time of Day: A categorical variable (e.g., "During Market Hours" vs. "After Hours").
 
