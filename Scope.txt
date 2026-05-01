@@ -4,7 +4,7 @@ Timeframe: 2024 - 2025
 These represent the US Indices. shouldn't use the raw price; instead, use variables that reflect change or volatility.
 
 ☐ Price Change: 1 hour, 6 hours, 24 hours (1 day)
-☐ Volatility: 1 hour, 12 hours, 48 hours
+☐ Volatility: 6 hour, 24 hours, 48 hours
  ✅ Trading Volume: 1 day
  ✅ Intraday High/Low Spread: 1 day
 
