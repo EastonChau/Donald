@@ -1,9 +1,3 @@
-# Install the Tesseract OCR engine
-!sudo apt install tesseract-ocr
-
-# Install the Python wrapper
-!pip install pytesseract
-
 import pandas as pd
 import requests
 from PIL import Image
