@@ -5,7 +5,7 @@ These represent the US Indices. shouldn't use the raw price; instead, use variab
 
 ☐ Price Change: 1 hour, ✅ 24 hours, ✅ 48 hours
   (Dataset1: Post | Price in 0 hour| Price in 1 hour (> 3:30 -> post market)| in 24 hours| Price Change in 1 hour | in 24 hours)
-☐ Volatility: (hold on I think think dim do sin) 12 hour, 24 hours, 48 hours (Dataset2: Post | SD in 1 hour (1-minute interval)| 24 hours (15 mins)| 48 hours (30 mins))
+☐ Volatility: (hold on I think think dim do sin) 12 hour, 24 hours, 48 hours (Dataset2: Post | SD in 1 hour (minimum interval)| 24 hours | 48 hours (30 mins))
  ✅ Trading Volume: 1 day
  ✅ Intraday High/Low Spread: 1 day
 
